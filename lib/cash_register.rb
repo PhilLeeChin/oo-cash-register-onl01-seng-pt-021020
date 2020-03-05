@@ -11,8 +11,7 @@ class CashRegister
     @total = num
   end
 
-  def add_item(title, price)
-    quantity = 1
+  def add_item(title, price, quantity = 1)
     quantity.times do |title|
       @items << title
     end
