@@ -30,8 +30,8 @@ class CashRegister
     end
   end
 
-  def items
-    self.@items
+  def items(arr = [])
+    arr << @items
   end
 
   def void_last_transaction
