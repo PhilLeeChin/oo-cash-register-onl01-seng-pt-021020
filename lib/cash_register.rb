@@ -15,6 +15,7 @@ class CashRegister
     quantity.times do |title|
       @items << title
     end
+    @items
     @total += (price * quantity)
     @l_item = (price * quantity)
     total
