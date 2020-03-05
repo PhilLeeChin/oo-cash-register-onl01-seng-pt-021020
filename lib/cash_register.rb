@@ -5,6 +5,7 @@ class CashRegister
     @total = 0
     @discount = discount_amount
     @items = []
+    @quantity = 1
   end
 
   def total=(num)
